@@ -1,5 +1,5 @@
 header {
-  height:650px;
+  min-height: 100vh;
   background: url("../import/da.png");
   background-repeat: no-repeat ;
   background-size: cover;
