@@ -20,11 +20,18 @@ nav {
 }
 
 .container {
-    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-
+    padding: 0 16px;
+    box-sizing: border-box;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
 
 
 .menu {
