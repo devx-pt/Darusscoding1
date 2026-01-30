@@ -1,0 +1,116 @@
+header {
+  height:650px;
+  background-repeat: no-repeat ;
+  background-size: cover;
+    nav {
+       .nav-con {
+            position: relative;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 30px;
+            margin-right: 15px;
+
+             .logo {
+                height: 55px;
+                transition: 0.3s ease;
+                margin-right: auto;
+             
+             }
+              .menu {
+                display: flex;
+                list-style: none;
+
+                li {
+                    margin-left: 50px;
+                    color: white;
+
+                    a {
+                        color:var(--white) ;
+                        text-decoration: none;
+                    }
+                }
+              }
+         
+         @media screen and (max-width: 768px) {
+            height: auto;
+            padding: 3rem 0;
+            
+        }
+
+
+     }
+    }
+}
+body {
+  background: url('../import/da.png') no-repeat center center fixed;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.subtitle {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  font-size: 0.95rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #5563d6;
+}
+
+

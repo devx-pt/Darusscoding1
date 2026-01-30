@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.logo:hover {
+    transform: translateX(10px) scale(1.05); /* ขยับ + ขยาย */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+nav {
+   
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+
+/* เส้นใต้เวลา hover */
+.menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background: #4ade80;
+    transition: 0.3s;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
